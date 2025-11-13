@@ -205,7 +205,6 @@ def gerar_relatorio():
             gerar_relatorio()
     except Exception:
             print(Fore.RED + "Opção não identificada!")
-    input("Tecle ENTER para retornar!")
 
 def sair_sistema():
     input(Fore.BLUE + "Saindo do sistema!!!\nTecle ENTER para reiniciar!")
